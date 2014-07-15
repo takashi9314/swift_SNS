@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C76B2895196CF02A0051AD64 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76B2894196CF02A0051AD64 /* Social.framework */; };
+		C76B2898196D033F0051AD64 /* facebookBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = C76B2896196D033E0051AD64 /* facebookBtn.png */; };
+		C76B2899196D033F0051AD64 /* twitterBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = C76B2897196D033E0051AD64 /* twitterBtn.png */; };
+		C76B289B196D1C600051AD64 /* choosePicBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = C76B289A196D1C600051AD64 /* choosePicBtn.png */; };
 		C7C68093196CCD3F00DEA45B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C68092196CCD3F00DEA45B /* AppDelegate.swift */; };
 		C7C68095196CCD4000DEA45B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C68094196CCD4000DEA45B /* ViewController.swift */; };
 		C7C68098196CCD4000DEA45B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7C68096196CCD4000DEA45B /* Main.storyboard */; };
 		C7C6809A196CCD4000DEA45B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7C68099196CCD4000DEA45B /* Images.xcassets */; };
 		C7C680A6196CCD4000DEA45B /* tweetAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C680A5196CCD4000DEA45B /* tweetAppTests.swift */; };
+		C7C680B0196CD14200DEA45B /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C680AF196CD14200DEA45B /* Twitter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C76B2894196CF02A0051AD64 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		C76B2896196D033E0051AD64 /* facebookBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookBtn.png; sourceTree = "<group>"; };
+		C76B2897196D033E0051AD64 /* twitterBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitterBtn.png; sourceTree = "<group>"; };
+		C76B289A196D1C600051AD64 /* choosePicBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = choosePicBtn.png; sourceTree = "<group>"; };
 		C7C6808D196CCD3F00DEA45B /* tweetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tweetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C68091196CCD3F00DEA45B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7C68092196CCD3F00DEA45B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +43,7 @@
 		C7C6809F196CCD4000DEA45B /* tweetAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tweetAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C680A4196CCD4000DEA45B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7C680A5196CCD4000DEA45B /* tweetAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tweetAppTests.swift; sourceTree = "<group>"; };
+		C7C680AF196CD14200DEA45B /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C76B2895196CF02A0051AD64 /* Social.framework in Frameworks */,
+				C7C680B0196CD14200DEA45B /* Twitter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +99,11 @@
 		C7C68090196CCD3F00DEA45B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C76B2896196D033E0051AD64 /* facebookBtn.png */,
+				C76B289A196D1C600051AD64 /* choosePicBtn.png */,
+				C76B2897196D033E0051AD64 /* twitterBtn.png */,
+				C76B2894196CF02A0051AD64 /* Social.framework */,
+				C7C680AF196CD14200DEA45B /* Twitter.framework */,
 				C7C68091196CCD3F00DEA45B /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -189,8 +206,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C76B2899196D033F0051AD64 /* twitterBtn.png in Resources */,
+				C76B2898196D033F0051AD64 /* facebookBtn.png in Resources */,
 				C7C68098196CCD4000DEA45B /* Main.storyboard in Resources */,
 				C7C6809A196CCD4000DEA45B /* Images.xcassets in Resources */,
+				C76B289B196D1C600051AD64 /* choosePicBtn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = tweetApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = " 8.0";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -337,6 +358,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = tweetApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = " 8.0";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -397,6 +419,7 @@
 				C7C680AB196CCD4000DEA45B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7C680AC196CCD4000DEA45B /* Build configuration list for PBXNativeTarget "tweetAppTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +428,7 @@
 				C7C680AE196CCD4000DEA45B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
